@@ -7,7 +7,7 @@ import numpy as np
 # ✅ Page Config
 st.set_page_config(
     page_title="Penama Wilt Detection",
-    page_icon="🍌",
+    page_icon=" *🍌*",
     layout="centered",
     initial_sidebar_state="expanded"
 )
