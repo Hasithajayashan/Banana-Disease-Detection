@@ -6,7 +6,7 @@ import numpy as np
 
 # ✅ Page Config
 st.set_page_config(
-    page_title="Banana Disease Detection",
+    page_title="Penama Wilt Detection",
     page_icon="🍌",
     layout="centered",
     initial_sidebar_state="expanded"
@@ -117,7 +117,7 @@ st.markdown(
 with st.sidebar:
     st.markdown(
         """
-        <h1>🍌 Banana Disease Detection</h2>
+        <h1>🍌Penama Wilt Detection </h2>
         <div class="sidebar-box">
             <h2>How it works:</h3>
             <ol>
@@ -141,7 +141,7 @@ def load_model():
 
 model = load_model()
 
-st.markdown("<h1>🍌 Banana Disease Detection</h1>", unsafe_allow_html=True)
+st.markdown("<h1>🍌 Penama Wilt Detection </h1>", unsafe_allow_html=True)
 st.write("Choose an option below to provide a banana leaf image for detection:")
 
 # ✅ Session States
